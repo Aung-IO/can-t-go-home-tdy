@@ -45,7 +45,7 @@ export function HighlightedCalendar({
   return (
     <Calendar
       mode="single"
-      className="w-full [--cell-size:--spacing(10)] px-15"
+      className="w-full [--cell-size:--spacing(8)] sm:[--cell-size:--spacing(10)] px-6 md:px-15"
       classNames={{
         root: "w-full",
         months: "w-full",
